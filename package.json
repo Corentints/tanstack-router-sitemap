@@ -1,6 +1,6 @@
 {
   "name": "@corentints/tanstack-router-sitemap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate XML sitemaps from TanStack Router route definitions",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
