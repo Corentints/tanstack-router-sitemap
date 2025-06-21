@@ -1,6 +1,6 @@
 # @corentints/tanstack-router-sitemap
 
-Generate XML sitemaps automatically from your TanStack Router route definitions. This plugin integrates seamlessly with TanStack Router to create SEO-friendly sitemaps without manual configuration.
+Generate XML sitemaps automatically from your TanStack Router route definitions. This plugin integrates seamlessly with TanStack Router to create SEO-friendly sitemaps without manual configuration. It supports Tanstack Router and Tanstack Start!
 
 ## Features
 
@@ -23,6 +23,8 @@ npm install @corentints/tanstack-router-sitemap
 
 ### 1. As a Vite Plugin (Recommended)
 
+#### Tanstack Router
+
 Add the plugin to your `vite.config.ts`:
 
 ```typescript
@@ -39,6 +41,27 @@ export default defineConfig({
   ],
 });
 ```
+
+#### Tanstack Start
+
+Add the plugin to your `app.config.ts`:
+
+```typescript
+export default defineConfig({
+  // ...
+  vite: {
+    plugins: [
+      // ... your other plugins
+      sitemapPlugin({
+        baseUrl: 'https://your-domain.com',
+        outputPath: "public/sitemap.xml",
+        verbose: true,
+      }),
+    ],
+  },
+  // ...
+```
+
 
 ### 2. Programmatic Usage
 

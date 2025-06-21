@@ -60,7 +60,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Corentints/tanstack-router-sitemap.git"
+    "url": "git+https://github.com/Corentints/tanstack-router-sitemap.git"
   },
   "bugs": {
     "url": "https://github.com/Corentints/tanstack-router-sitemap/issues"
