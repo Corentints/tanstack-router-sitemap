@@ -21,9 +21,7 @@
     "test:ui": "vitest --ui",
     "lint": "eslint src/**/*.ts",
     "format": "prettier --write src/**/*.ts",
-    "preview": "vite preview",
-    "demo": "npm run build && node demo.js",
-    "demo:plugin": "npm run build && node plugin-demo.js"
+    "preview": "vite preview"
   },
   "keywords": [
     "tanstack",
